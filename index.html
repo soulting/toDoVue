@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <p v-show="age%2 === 0 ">{{title}}</p>
+      <p>{{autor}}</p>
+      <p>{{age}}</p>
+      <button @click="changeTitle" id="event-btn">
+        <span v-if="age%2===0">show books</span>
+        <span v-else>hide books</span>
+      </button>
+    </div>
+
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
