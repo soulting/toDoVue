@@ -1,16 +1,31 @@
 const app = Vue.createApp({
   data() {
     return {
-      title: "Marsjanin",
-      autor: "Andy",
-      age: 20,
+      books: [
+        {
+          autor: "Andrzej",
+          title: "JAk pracować ",
+          img: "./imgs/a.png",
+          isFav: true,
+        },
+        {
+          autor: "Pączek",
+          title: "Jak zarabiać",
+          img: "./imgs/p.png",
+          isFav: false,
+        },
+        {
+          autor: "Bartek",
+          title: "Jak sie opierdalać",
+          img: "./imgs/b.png",
+          isFav: false,
+        },
+      ],
     };
   },
   methods: {
-    changeTitle() {
-      this.age++;
-      if (this.age % 2 === 0) {
-      }
+    click(book) {
+      book.isFav = !book.isFav;
     },
   },
 });

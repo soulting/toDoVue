@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./styles/controls.css" />
   </head>
   <body>
-    <div class="app">
-      <p v-show="age%2 === 0 ">{{title}}</p>
-      <p>{{autor}}</p>
-      <p>{{age}}</p>
-      <button @click="changeTitle" id="event-btn">
-        <span v-if="age%2===0">show books</span>
-        <span v-else>hide books</span>
-      </button>
-    </div>
+    <main class="main-container">
+      <section class="controls">
+        <p>Tasks</p>
+        <button class="add-btn">Add Task</button>
+        <p>Sort:</p>
+        <select class="sort-tasks">
+          <option value="1">by oldest</option>
+          <option value="2">by newest</option>
+          <option value="3">by lowest difficulty</option>
+          <option value="4">by highest difficulty</option>
+        </select>
+      </section>
+      <section class="task-section"></section>
+      <div class="app">
+        <ul>
+          <li
+            @click="click(book)"
+            v-for="book in books"
+            :class="{ fav: book.isFav }"
+          >
+            <img :src="book.img" :alt="book.title" />
+            <p>{{book.autor}}</p>
+            <p>{{book.title}}</p>
+          </li>
+        </ul>
+      </div>
+    </main>
 
     <script src="./scripts/app.js"></script>
   </body>

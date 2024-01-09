@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  .main-container {
+    margin: 0px;
+    padding: 0px;
+
+    .controls {
+      margin: 0px;
+      padding: 0px;
+      background-color: darkgray;
+      display: flex;
+      height: 5vh;
+    }
+
+    .task-section {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.app {
+  display: flex;
+  gap: 1vh;
+
+  li {
+    list-style-type: none;
+    background-color: aquamarine;
+  }
+  .fav {
+    background-color: aqua;
+  }
+
+  img {
+    height: 30px;
+  }
+}

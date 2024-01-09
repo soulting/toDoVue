@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .main-container {
+  margin: 0px;
+  padding: 0px;
+}
+body .main-container .controls {
+  margin: 0px;
+  padding: 0px;
+  background-color: darkgray;
+  display: flex;
+  height: 5vh;
+}
+body .main-container .task-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  gap: 1vh;
+}
+.app li {
+  list-style-type: none;
+  background-color: aquamarine;
+}
+.app .fav {
+  background-color: aqua;
+}
+.app img {
+  height: 30px;
+}/*# sourceMappingURL=controls.css.map */
