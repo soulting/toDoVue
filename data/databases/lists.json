@@ -1,0 +1,139 @@
+{
+    "lists": [
+        {
+            "id": 1,
+            "active": false,
+            "title": "Pr\u00f3ba 4",
+            "tasks": [
+                {
+                    "task_id": 1,
+                    "description": "test ",
+                    "favorite": false,
+                    "completed": true
+                },
+                {
+                    "task_id": 2,
+                    "description": "Kupi\u0107 ETF",
+                    "favorite": false
+                },
+                {
+                    "task_id": 3,
+                    "description": "Po\u0107wicz",
+                    "favorite": false,
+                    "completed": true
+                },
+                {
+                    "task_id": 4,
+                    "description": "Kup ETH",
+                    "favorite": false,
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "active": false,
+            "title": "Wa\u017cne zadania",
+            "tasks": [
+                {
+                    "task_id": 1,
+                    "description": "4",
+                    "favorite": true
+                },
+                {
+                    "task_id": 2,
+                    "description": "3",
+                    "favorite": false
+                },
+                {
+                    "task_id": 3,
+                    "description": "2",
+                    "favorite": false
+                },
+                {
+                    "task_id": 4,
+                    "description": "1",
+                    "favorite": false
+                },
+                {
+                    "task_id": 5,
+                    "description": "Kupi\u0107 papier",
+                    "favorite": true,
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "active": false,
+            "title": "qwerty",
+            "tasks": []
+        },
+        {
+            "id": 4,
+            "active": false,
+            "title": "ddsdfsdf",
+            "tasks": []
+        },
+        {
+            "id": 5,
+            "active": true,
+            "title": "qazwsx",
+            "tasks": [
+                {
+                    "task_id": 1,
+                    "description": "sfdsfd",
+                    "favorite": false
+                },
+                {
+                    "task_id": 2,
+                    "description": "rgserte",
+                    "favorite": false
+                },
+                {
+                    "task_id": 3,
+                    "description": "afsfdadf",
+                    "favorite": false
+                },
+                {
+                    "task_id": 4,
+                    "description": "ASDFASFDFSG",
+                    "favorite": false
+                },
+                {
+                    "task_id": 5,
+                    "description": "ASDFAFDS",
+                    "favorite": true
+                },
+                {
+                    "task_id": 6,
+                    "description": "dFASDFDS",
+                    "favorite": true
+                },
+                {
+                    "task_id": 7,
+                    "description": "wfasdfa",
+                    "favorite": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "active": true,
+            "title": "fgsfdg",
+            "tasks": []
+        },
+        {
+            "id": 7,
+            "active": false,
+            "title": "sdzvdsv",
+            "tasks": []
+        },
+        {
+            "id": 8,
+            "active": false,
+            "title": "DCSD",
+            "tasks": []
+        }
+    ]
+}
